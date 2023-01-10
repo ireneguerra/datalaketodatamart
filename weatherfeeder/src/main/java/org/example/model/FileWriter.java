@@ -8,7 +8,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-public class FileDatalake implements Datalake {
+public class FileWriter implements DatalakeWriter {
     public void storeData(List<Weather> events) throws IOException {
         String uri = "datalake";
         File folder = new File(uri);

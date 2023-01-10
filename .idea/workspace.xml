@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="959d9709-849c-4d9e-9aad-571c9a39ca7f" name="Changes" comment="v1.0">
-      <change beforePath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/datamart.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/datamart.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapirest/src/main/java/org/example/model/GetSqliteData.java" beforeDir="false" afterPath="$PROJECT_DIR$/weatherapirest/src/main/java/org/example/model/GetSqliteData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
       <recent name="C:\Users\irene\IdeaProjects\feeder\aemetfeeder\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.datalake">
+  <component name="RunManager" selected="Compound.DatalakeDatamart">
     <configuration name="api" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -146,7 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673379258944</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="v1.0">
+      <created>1673379564162</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673379564162</updated>
+    </task>
+    <task id="LOCAL-00006" summary="v1.0">
+      <created>1673379571327</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673379571327</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

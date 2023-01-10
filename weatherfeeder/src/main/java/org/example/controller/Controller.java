@@ -7,7 +7,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.util.List;
 
-public class Controller implements WeatherSensor, Datalake {
+public class Controller implements WeatherSensor, DatalakeWriter {
     public void controlFeeder(String apiKey) throws Exception {
         String aemet = getData(apiKey, "https://opendata.aemet.es/opendata/api/observacion/convencional/todas");
         JSONObject json = new JSONObject(aemet);
@@ -30,7 +30,7 @@ public class Controller implements WeatherSensor, Datalake {
 
     @Override
     public void storeData(List<Weather> events) throws IOException {
-        new FileDatalake().storeData(events);
+        new FileWriter().storeData(events);
     }
 
 

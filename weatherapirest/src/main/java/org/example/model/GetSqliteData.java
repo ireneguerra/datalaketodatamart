@@ -1,5 +1,6 @@
 package org.example.model;
 
+
 import java.sql.*;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -9,17 +10,18 @@ import java.util.List;
 public class GetSqliteData implements GetDatamartData {
 
     public Statement setConnect() throws SQLException {
-        String dbPath = "database/datamart.db";
+        String url = "database/datamart.db";
+        String dbPath = "jdbc:sqlite:" + url;
         Connection connection = connect(dbPath);
         return connection.createStatement();
     }
 
-    private Connection connect(String dbPath) {
+    private static Connection connect(String dbPath) {
         Connection conn = null;
         try {
-            String url = "jdbc:sqlite:" + dbPath;
-            conn = DriverManager.getConnection(url);
+            conn = DriverManager.getConnection(dbPath);
             System.out.println("Connection to SQLite has been established.");
+            return conn;
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
