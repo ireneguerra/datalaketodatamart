@@ -1,7 +1,6 @@
 package org.example.controller;
 
 import org.example.model.GetSqliteData;
-import org.example.view.WebService;
 
 import java.sql.SQLException;
 import java.sql.Statement;

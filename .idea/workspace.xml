@@ -8,10 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/datamart.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/datamart.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datalake/20230110.events" beforeDir="false" afterPath="$PROJECT_DIR$/datalake/20230110.events" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/controller/SqliteManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/controller/SqliteManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/model/SqliteStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/controller/SqliteStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/model/AemetSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/controller/AemetSensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/model/WeatherSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/controller/WeatherSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapirest/src/main/java/org/example/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/weatherapirest/src/main/java/org/example/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapirest/src/main/java/org/example/view/WebService.java" beforeDir="false" afterPath="$PROJECT_DIR$/weatherapirest/src/main/java/org/example/controller/WebService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/controller/AemetSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/controller/AemetSensor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <recent name="C:\Users\irene\IdeaProjects\feeder\aemetfeeder\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Compound.DatalakeDatamart">
+  <component name="RunManager" selected="Application.datalake">
     <configuration name="api" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -149,7 +148,7 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="false" />
+                  <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
             </State>

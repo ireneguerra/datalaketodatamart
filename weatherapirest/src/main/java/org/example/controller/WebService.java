@@ -1,7 +1,6 @@
-package org.example.view;
+package org.example.controller;
 
 import com.google.gson.Gson;
-import org.example.controller.Controller;
 import spark.Request;
 import spark.Response;
 
@@ -13,12 +12,13 @@ import java.util.List;
 import static spark.Spark.get;
 
 public class WebService {
-    public static void webService() {
-        get("/v1/places/with-max-temperature", WebService::getMax);
-        get("/v1/places/with-min-temperature", WebService::getMin);
+    public void webService() {
+        WebService webService = new WebService();
+        get("/v1/places/with-max-temperature", webService::getMax);
+        get("/v1/places/with-min-temperature", webService::getMin);
     }
 
-    private static String getMax(Request request, Response response) throws SQLException {
+    private String getMax(Request request, Response response) throws SQLException {
         response.header("content-type", "application/json");
         String from = request.queryParams("from");
         String to = request.queryParams("to");
@@ -29,7 +29,7 @@ public class WebService {
         return toJson(places);
     }
 
-    private static String getMin(Request request, Response response) throws SQLException {
+    private String getMin(Request request, Response response) throws SQLException {
         response.header("content-type", "application/json");
         String from = request.queryParams("from");
         String to = request.queryParams("to");
