@@ -3,7 +3,7 @@ package org.example.controller;
 import java.util.TimerTask;
 
 public class FeederTimerTask extends TimerTask {
-    private String apiKey;
+    private final String apiKey;
 
     public FeederTimerTask(String apiKey) {
         this.apiKey = apiKey;
