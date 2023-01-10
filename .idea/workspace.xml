@@ -4,46 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="959d9709-849c-4d9e-9aad-571c9a39ca7f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datalake/20221229.events" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datalake/20221230.events" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datalake/20230102.events" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datalake/20230103.events" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datalake/20230104.events" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherapirest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherapirest/src/main/java/org/example/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherapirest/src/main/java/org/example/controller/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherapirest/src/main/java/org/example/model/GetDatamartData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherapirest/src/main/java/org/example/model/GetSqliteData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherapirest/src/main/java/org/example/view/WebService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherdatamart/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/controller/DatamartManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/controller/DatamartTimerTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/controller/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/controller/SqliteManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/model/DatalakeReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/model/FileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/model/SqliteStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherfeeder/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/controller/FeederTimerTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/controller/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/model/AemetSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/model/Datalake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/model/FileDatalake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/model/Weather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/model/WeatherSensor.java" afterDir="false" />
+    <list default="true" id="959d9709-849c-4d9e-9aad-571c9a39ca7f" name="Changes" comment="v1.0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/datamart.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/datamart.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datalake/20230110.events" beforeDir="false" afterPath="$PROJECT_DIR$/datalake/20230110.events" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/controller/SqliteManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/controller/SqliteManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/model/SqliteStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/controller/SqliteStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/model/AemetSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/controller/AemetSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/model/WeatherSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/controller/WeatherSensor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +124,21 @@
       <option name="presentableId" value="Default" />
       <updated>1671196957332</updated>
     </task>
+    <task id="LOCAL-00001" summary="v1.0">
+      <created>1673375828314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673375828314</updated>
+    </task>
+    <task id="LOCAL-00002" summary="v1.0">
+      <created>1673375858911</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673375858911</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,5 +157,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.0" />
   </component>
 </project>

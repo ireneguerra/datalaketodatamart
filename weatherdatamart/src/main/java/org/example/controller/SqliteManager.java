@@ -1,6 +1,5 @@
 package org.example.controller;
 
-import org.example.model.SqliteStore;
 import org.json.JSONObject;
 
 import java.sql.*;

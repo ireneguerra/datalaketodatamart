@@ -1,5 +1,6 @@
-package org.example.model;
+package org.example.controller;
 
+import org.example.model.Weather;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jsoup.Connection;
@@ -12,7 +13,7 @@ import java.util.List;
 public class AemetSensor implements WeatherSensor {
     public String getData(String apiKey, String url) throws IOException {
         return Jsoup.connect(url)
-                .timeout(10000)
+                .timeout(15000)
                 .ignoreContentType(true)
                 .maxBodySize(0)
                 .header("accept", "application/json")
