@@ -14,7 +14,7 @@ public class FileDatalake implements Datalake {
         File folder = new File(uri);
         if (!folder.exists()) {
             if (folder.mkdir()) {
-                System.out.println("Se creó el directorio" + folder.getAbsolutePath() + "correctamente");
+                System.out.println("Se creó el directorio " + folder.getAbsolutePath() + " correctamente");
             }
         }
         for (Weather event : events) {
@@ -26,7 +26,7 @@ public class FileDatalake implements Datalake {
             File day = new File(fileName);
             if (!day.exists()) {
                 if (day.createNewFile()) {
-                    System.out.println("Se creó el fichero" + day.getAbsolutePath() + "correctamente");
+                    System.out.println("Se creó el fichero " + day.getAbsolutePath() + " correctamente");
                 }
             }
             Gson gson = new Gson();

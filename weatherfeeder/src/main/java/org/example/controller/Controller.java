@@ -32,4 +32,6 @@ public class Controller implements WeatherSensor, Datalake {
     public void storeData(List<Weather> events) throws IOException {
         new FileDatalake().storeData(events);
     }
+
+
 }
