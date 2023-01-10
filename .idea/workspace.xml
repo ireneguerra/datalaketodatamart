@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="959d9709-849c-4d9e-9aad-571c9a39ca7f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datalake/20221229.events" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datalake/20221230.events" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datalake/20230102.events" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datalake/20230103.events" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datalake/20230104.events" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherapirest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherapirest/src/main/java/org/example/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherapirest/src/main/java/org/example/controller/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherapirest/src/main/java/org/example/model/GetDatamartData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherapirest/src/main/java/org/example/model/GetSqliteData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherapirest/src/main/java/org/example/view/WebService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherdatamart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/controller/DatamartManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/controller/DatamartTimerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/controller/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/controller/SqliteManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/model/DatalakeReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/model/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherdatamart/src/main/java/org/example/model/SqliteStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherfeeder/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/controller/FeederTimerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/controller/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/model/AemetSensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/model/Datalake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/model/FileDatalake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/model/Weather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherfeeder/src/main/java/org/example/model/WeatherSensor.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2IzuuNVNrMgGuyw6RB3L38Nhi1N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/irene/IdeaProjects/feeder&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\irene\IdeaProjects\feeder\datalake" />
+      <recent name="C:\Users\irene\IdeaProjects\feeder\apirest\src\main\java\org\example" />
+      <recent name="C:\Users\irene\IdeaProjects\feeder\aemetfeeder\src\main\java\org\example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Compound.DatalakeDatamart">
+    <configuration name="api" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.controller.Main" />
+      <module name="weatherapirest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="datalake" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.example.controller.Main" />
+      <module name="weatherfeeder" />
+      <option name="PROGRAM_PARAMETERS" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJpcmVuZWd1ZXJyYWRlbml6MDNAZ21haWwuY29tIiwianRpIjoiZGRlZjYwODMtYjQxYy00YjQ4LThjYjgtMGFlOGU1MDI1MzFmIiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE2NzExMzMwODYsInVzZXJJZCI6ImRkZWY2MDgzLWI0MWMtNGI0OC04Y2I4LTBhZThlNTAyNTMxZiIsInJvbGUiOiIifQ.SK4BMw74x5tQ27JU_T68o8HNxtGJW3o19ioYdhyQf74" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="datamart" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.controller.Main" />
+      <module name="weatherdatamart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatalakeDatamart" type="CompoundRunConfigurationType">
+      <toRun name="api" type="Application" />
+      <toRun name="datalake" type="Application" />
+      <toRun name="datamart" type="Application" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="CompoundRunConfigurationType">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.datalake" />
+      <item itemvalue="Application.datamart" />
+      <item itemvalue="Application.api" />
+      <item itemvalue="Compound.Unnamed" />
+      <item itemvalue="Compound.DatalakeDatamart" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="959d9709-849c-4d9e-9aad-571c9a39ca7f" name="Changes" comment="" />
+      <created>1671196957332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671196957332</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
