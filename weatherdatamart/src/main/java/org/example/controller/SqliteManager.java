@@ -21,7 +21,7 @@ public class SqliteManager implements DatamartManager {
         }
     }
 
-    private static Connection connect(String dbPath) {
+    public static Connection connect(String dbPath) {
         Connection conn = null;
         try {
             conn = DriverManager.getConnection(dbPath);

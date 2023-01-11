@@ -13,7 +13,7 @@ import java.util.List;
 
 public class SqliteStore {
     public void insertWeatherData(String tableName, List<JSONObject> list, Connection connection) throws ParseException {
-        String insert_min = "INSERT INTO " + tableName + " (date,time,place,station,value) VALUES (?, ?, ?, ?, ?)";
+        String formatSqlite = "INSERT INTO " + tableName + " (date,time,place,station,value) VALUES (?, ?, ?, ?, ?)";
         for (
                 JSONObject weather : list) {
             String fullDate = weather.getString("date");
@@ -24,7 +24,7 @@ public class SqliteStore {
             String newDate = newDateFormat.format(date);
             String time = newTimeFormat.format(date);
             try (
-                    PreparedStatement pstm = connection.prepareStatement(insert_min)) {
+                    PreparedStatement pstm = connection.prepareStatement(formatSqlite)) {
                 pstm.setString(1, newDate);
                 pstm.setString(2, time);
                 pstm.setString(3, weather.getString("location"));

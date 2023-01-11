@@ -22,7 +22,7 @@ public class WebService {
         response.header("content-type", "application/json");
         String from = request.queryParams("from");
         String to = request.queryParams("to");
-        DateTimeFormatter format = DateTimeFormatter.ofPattern("yyyy/MM/dd");
+        DateTimeFormatter format = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         LocalDate fromDate = LocalDate.parse(from, format);
         LocalDate toDate = LocalDate.parse(to, format);
         List<String> places = new Controller().getMaxLoc(fromDate, toDate);
@@ -33,7 +33,7 @@ public class WebService {
         response.header("content-type", "application/json");
         String from = request.queryParams("from");
         String to = request.queryParams("to");
-        DateTimeFormatter format = DateTimeFormatter.ofPattern("yyyy/MM/dd");
+        DateTimeFormatter format = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         LocalDate fromDate = LocalDate.parse(from, format);
         LocalDate toDate = LocalDate.parse(to, format);
         List<String> places = new Controller().getMinLoc(fromDate, toDate);
