@@ -13,7 +13,7 @@ import java.util.List;
 public class AemetSensor implements WeatherSensor {
     public String getData(String apiKey, String url) throws IOException {
         return Jsoup.connect(url)
-                .timeout(6000)
+                .timeout(10000)
                 .ignoreContentType(true)
                 .maxBodySize(0)
                 .header("accept", "application/json")
