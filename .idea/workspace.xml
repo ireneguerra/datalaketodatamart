@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="959d9709-849c-4d9e-9aad-571c9a39ca7f" name="Changes" comment="v1.0">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="959d9709-849c-4d9e-9aad-571c9a39ca7f" name="Changes" comment="v1.0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +79,6 @@
     <configuration name="datalake" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.controller.Main" />
       <module name="aemetfeeder" />
-      <option name="PROGRAM_PARAMETERS" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJpcmVuZWd1ZXJyYWRlbml6MDNAZ21haWwuY29tIiwianRpIjoiZGRlZjYwODMtYjQxYy00YjQ4LThjYjgtMGFlOGU1MDI1MzFmIiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE2NzExMzMwODYsInVzZXJJZCI6ImRkZWY2MDgzLWI0MWMtNGI0OC04Y2I4LTBhZThlNTAyNTMxZiIsInJvbGUiOiIifQ.SK4BMw74x5tQ27JU_T68o8HNxtGJW3o19ioYdhyQf74" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -205,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673625443535</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="v1.0">
+      <created>1673627667128</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673627667128</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
