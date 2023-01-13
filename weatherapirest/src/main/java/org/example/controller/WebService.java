@@ -12,8 +12,14 @@ import java.util.List;
 import static spark.Spark.get;
 
 public class WebService {
+    private final Controller controller;
+
+    public WebService(Controller controller) {
+        this.controller = controller;
+    }
+
     public void webService() {
-        WebService webService = new WebService();
+        WebService webService = new WebService(controller);
         get("/v1/places/with-max-temperature", webService::getMax);
         get("/v1/places/with-min-temperature", webService::getMin);
     }
@@ -25,7 +31,7 @@ public class WebService {
         DateTimeFormatter format = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         LocalDate fromDate = LocalDate.parse(from, format);
         LocalDate toDate = LocalDate.parse(to, format);
-        List<String> places = new Controller().getMaxLoc(fromDate, toDate);
+        List<String> places = controller.getMaxLoc(fromDate, toDate);
         return toJson(places);
     }
 
@@ -36,7 +42,7 @@ public class WebService {
         DateTimeFormatter format = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         LocalDate fromDate = LocalDate.parse(from, format);
         LocalDate toDate = LocalDate.parse(to, format);
-        List<String> places = new Controller().getMinLoc(fromDate, toDate);
+        List<String> places = controller.getMinLoc(fromDate, toDate);
         return toJson(places);
     }
 

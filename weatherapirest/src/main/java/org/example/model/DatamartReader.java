@@ -5,7 +5,7 @@ import java.sql.Statement;
 import java.time.LocalDate;
 import java.util.List;
 
-public interface GetDatamartData {
+public interface DatamartReader {
     Statement setConnect() throws SQLException;
 
     List<String> getLocations(String tableName, Statement statement, LocalDate from, LocalDate to) throws SQLException;

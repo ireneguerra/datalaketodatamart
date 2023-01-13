@@ -7,7 +7,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GetSqliteData implements GetDatamartData {
+public class SqliteReader implements DatamartReader {
 
     public Statement setConnect() throws SQLException {
         String url = "database/datamart.db";
@@ -36,7 +36,7 @@ public class GetSqliteData implements GetDatamartData {
             String date = rs.getString("date");
             DateTimeFormatter format = DateTimeFormatter.ofPattern("yyyy-MM-dd");
             LocalDate newDate = LocalDate.parse(date, format);
-            if (newDate.isBefore(to) && newDate.isAfter(from)) {
+            if ((newDate.isBefore(to) || newDate.isEqual(to)) && (newDate.isAfter(from) || newDate.isEqual(from))) {
                 places.add(place);
             }
         }
